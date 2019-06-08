@@ -134,3 +134,30 @@ a {
   height: 40px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+
+.main .main-content .pagination {
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.main .main-content .pagination .pagination-info {
+  border: 1px solid #FF3152;
+  background-color: #FF3152;
+  font-size: 15px;
+}
+
+.main .main-content .pagination .pagination-next {
+  color: #FF3152;
+  border: 3px solid #FF3152;
+}
+
+.main .main-content .pagination a {
+  text-decoration: none;
+}
+
+.main .main-content .pagination a:hover {
+  background-color: #FF3152;
+  color: #FFFFFF;
+  transition: 1s;
+}
