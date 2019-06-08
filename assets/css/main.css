@@ -5,6 +5,11 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  outline: 0;
+}
+
 .grid-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -58,4 +63,74 @@ body {
 .main .filter a {
   font-size: 16px;
   font-weight: 400;
+}
+
+.main .main-content .post-image img {
+  width: 340px;
+  height: auto;
+}
+
+.main .main-content .post-category {
+  top: 10px;
+  right: 25px;
+  border: 1px solid #FFD012;
+  background-color: #FFD012;
+  font-size: 13px;
+}
+
+.main .main-content .post-category a {
+  text-decoration: none;
+  color: #111;
+}
+
+.main .main-content .post-category:hover {
+  background-color: #333;
+  color: #FFF;
+  border-color: #333;
+  transition: 1s;
+  text-decoration: none;
+}
+
+.main .main-content .post-category a:hover {
+  color: #FFF;
+}
+
+.main .main-content .post-content h1 {
+  font-size: 24px;
+  color: #222222;
+  line-height: 1.35;
+}
+
+.main .main-content .post-content p {
+  font-size: 15px;
+  letter-spacing: 0.3px;
+}
+
+.main .main-content .post-creator {
+  float: right;
+}
+
+.main .main-content .post-creator .creator-name {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: #FF3152;
+}
+
+.main .main-content .post-creator .creator-name:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+.main .main-content .post-creator .creator-count {
+  letter-spacing: 0.75px;
+  font-size: 13px;
+  line-height: 1;
+  color: #7c7c7c;
+}
+
+.main .main-content .post-creator img {
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
