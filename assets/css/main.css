@@ -198,3 +198,22 @@ a {
 .main .main-footer {
   background-color: #FF3152;
 }
+
+.main .main-footer .line {
+  border-color: #FFD012 !important;
+  border: 3px solid #FFD012;
+  border-radius: 5px;
+}
+
+.main .main-footer .posts .post img {
+  width: 80px;
+  height: 80px;
+}
+
+.tags .tag {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.tags a {
+  text-decoration: none;
+}
